@@ -1,9 +1,9 @@
 Package: Regex.example
 Title: What my Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.0.0.1000
 Authors@R: 
     person("Eugenia", "Berrino", , "berrinoeugenia@gmail.com", role = c("aut", "cre"))
-Description: What my package does (one paragraph).
+Description: Quick Statistical Analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

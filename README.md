@@ -1,8 +1,10 @@
-# R-package-template
+# Quick statistical analysis for small - medium size datasets
 
-This is a template to be used for future proyects in R.
+This is a Shiny app developed for a quick analysis in small to medium size datasets. It's interface allows for a user to load .csv, .txt files with a variety of separators and is capable of doing the next analysis in a matter of clicks: 
 
-The R folder has inside the .R files, with some code "comments" that used together with a package, make the documentation easily available. 
+ - Dataset Size (variables and number of observations)
+ - Missing values per variable
+ - 
 
 
 

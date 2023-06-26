@@ -51,7 +51,7 @@ histogram = function(df,groupcol,colname,inpbins){
     return(ggplot2::ggplot(df, ggplot2::aes(x = columna_numerica)) + ggplot2::geom_histogram(alpha = 0.5, position = "identity", bins = inpbins))
   }
   else{
-    return(ggplot2::ggplot(df, ggplot2::aes(x = columna_numerica, fill = group_col, colour = group_col)) + ggplot2::geom_histogram(alpha = 0.5, position = "identity", bins = inpbins))
+    return(ggplot2::ggplot(df, ggplot2::aes(x = columna_numerica)) + ggplot2::geom_histogram( bins = inpbins) + labs(title='Histogram',x=colname)+   ggplot2::facet_grid({{groupcol}}) + ggplot2::scale_y_continuous(sec.axis = ggplot2::sec_axis(~ . , name = groupcol, breaks = NULL, labels = NULL)) )
     }
 }
 # ------ BOX PLOT --------
